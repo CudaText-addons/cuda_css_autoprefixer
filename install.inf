@@ -1,0 +1,22 @@
+[info]
+title=CSS AutoPrefixer
+desc=Inserts vendor prefixes into CSS code (requires Node.js)
+type=cudatext-plugin
+subdir=cuda_css_autoprefixer
+homepage=https://github.com/CudaText-addons/cuda_css_autoprefixer
+
+[item1]
+section=commands
+caption=CSS AutoPrefixer\Format
+method=run
+lexers=CSS
+
+[item2]
+section=commands
+caption=CSS AutoPrefixer\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=CSS AutoPrefixer\Configure (local)
+method=config_local
